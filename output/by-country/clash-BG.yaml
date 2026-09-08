@@ -19,41 +19,15 @@ proxies:
 - name: 🇧🇬 BG 02 - fc
   type: vless
   server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 03 - fc
-  type: vless
-  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 04 - fc
+- name: 🇧🇬 BG 03 - fc
   type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 05 - fc
-  type: vless
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -68,8 +42,6 @@ proxy-groups:
   - 🇧🇬 BG 01 - fc
   - 🇧🇬 BG 02 - fc
   - 🇧🇬 BG 03 - fc
-  - 🇧🇬 BG 04 - fc
-  - 🇧🇬 BG 05 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,7 +50,5 @@ proxy-groups:
   - 🇧🇬 BG 01 - fc
   - 🇧🇬 BG 02 - fc
   - 🇧🇬 BG 03 - fc
-  - 🇧🇬 BG 04 - fc
-  - 🇧🇬 BG 05 - fc
 rules:
 - MATCH,PROXIES

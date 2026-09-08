@@ -6,18 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - fc",
+        "🇿🇦 ZA 02 - fc",
+        "🇿🇦 ZA 03 - fc",
+        "🇿🇦 ZA 04 - fc",
+        "🇿🇦 ZA 05 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - fc",
+        "🇿🇦 ZA 02 - fc",
+        "🇿🇦 ZA 03 - fc",
+        "🇿🇦 ZA 04 - fc",
+        "🇿🇦 ZA 05 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

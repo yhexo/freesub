@@ -4,20 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - xiaohe
-  type: vless
-  server: 104.17.178.154
-  port: 8880
-  uuid: a8c23fe7-d2bb-46ba-a14e-8847f1944642
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: billowing-fire-a10b.301-d6c.workers.dev
-- name: 🇲🇾 MY 02 - xiaohe
+- name: 🇲🇾 MY 01 - fc
   type: vless
   server: 38.60.168.98
   port: 2087
@@ -30,7 +17,7 @@ proxies:
     path: /db55c40bbc75
     headers:
       Host: 38.60.168.98
-- name: 🇲🇾 MY 03 - xiaohe
+- name: 🇲🇾 MY 02 - fc
   type: vless
   server: 38.60.168.98
   port: 2087
@@ -48,16 +35,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - xiaohe
-  - 🇲🇾 MY 02 - xiaohe
-  - 🇲🇾 MY 03 - xiaohe
+  - 🇲🇾 MY 01 - fc
+  - 🇲🇾 MY 02 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - xiaohe
-  - 🇲🇾 MY 02 - xiaohe
-  - 🇲🇾 MY 03 - xiaohe
+  - 🇲🇾 MY 01 - fc
+  - 🇲🇾 MY 02 - fc
 rules:
 - MATCH,PROXIES

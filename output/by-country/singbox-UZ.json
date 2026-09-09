@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - fc"
+        "🇺🇿 UZ 01 - fc",
+        "🇺🇿 UZ 02 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - fc"
+        "🇺🇿 UZ 01 - fc",
+        "🇺🇿 UZ 02 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

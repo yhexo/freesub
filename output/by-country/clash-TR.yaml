@@ -15,16 +15,32 @@ proxies:
   servername: 195-162-69-203.sslip.io
 - name: 🇹🇷 土耳其 (Turkey) 02 - fc
   type: vless
-  server: 151.241.226.201
+  server: 104.17.169.13
   port: 2053
-  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
-  servername: www.apple.com
-  client-fingerprint: random
+  servername: inDeX.HaRMONiCA01.WORkers.DeV
+  network: ws
+  ws-opts:
+    path: /axch1mttbxz2k55y01
+    headers:
+      Host: inDeX.HaRMONiCA01.WORkers.DeV
+- name: 🇹🇷 土耳其 (Turkey) 03 - fc
+  type: vless
+  server: 162.159.91.222
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-723a643df685
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: n3zaxce7u0es.crzl48eiuses.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/723a643df685/loc-0
+    headers:
+      Host: n3zaxce7u0es.crzl48eiuses.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +48,7 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - fc
   - 🇹🇷 土耳其 (Turkey) 02 - fc
+  - 🇹🇷 土耳其 (Turkey) 03 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -39,5 +56,6 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - fc
   - 🇹🇷 土耳其 (Turkey) 02 - fc
+  - 🇹🇷 土耳其 (Turkey) 03 - fc
 rules:
 - MATCH,PROXIES

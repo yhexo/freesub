@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - fc
-  type: vless
-  server: 104.18.32.47
-  port: 8443
-  uuid: 4ff70740-8c80-48ae-985f-2afe4924e908
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pubb.clnahanpnln.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: pubb.clnahanpnln.workers.dev
-- name: 🇸🇨 SC 02 - fc
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -34,13 +20,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - fc
-  - 🇸🇨 SC 02 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - fc
-  - 🇸🇨 SC 02 - fc
 rules:
 - MATCH,PROXIES

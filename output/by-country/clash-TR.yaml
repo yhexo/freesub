@@ -14,32 +14,12 @@ proxies:
   skip-cert-verify: true
   servername: 195-162-69-203.sslip.io
 - name: 🇹🇷 土耳其 (Turkey) 02 - fc
-  type: vless
-  server: 195.162.69.203
-  port: 8443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  type: ss
+  server: 188.132.232.85
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195-162-69-203.sslip.io
-- name: 🇹🇷 土耳其 (Turkey) 03 - fc
-  type: vless
-  server: 195.162.69.203
-  port: 8443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195-162-69-203.sslip.io
-- name: 🇹🇷 土耳其 (Turkey) 04 - fc
-  type: vless
-  server: 195.162.69.203
-  port: 8443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195-162-69-203.sslip.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,8 +27,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - fc
   - 🇹🇷 土耳其 (Turkey) 02 - fc
-  - 🇹🇷 土耳其 (Turkey) 03 - fc
-  - 🇹🇷 土耳其 (Turkey) 04 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,7 +34,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - fc
   - 🇹🇷 土耳其 (Turkey) 02 - fc
-  - 🇹🇷 土耳其 (Turkey) 03 - fc
-  - 🇹🇷 土耳其 (Turkey) 04 - fc
 rules:
 - MATCH,PROXIES

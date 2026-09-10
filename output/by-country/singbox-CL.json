@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 LU 01 - fc"
+        "🇨🇱 CL 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 LU 01 - fc"
+        "🇨🇱 CL 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

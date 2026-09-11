@@ -6,20 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - fc",
-        "🇱🇻 LV 02 - fc",
-        "🇱🇻 LV 03 - fc",
-        "🇱🇻 LV 04 - fc"
+        "🇷🇴 RO 01 - fc",
+        "🇷🇴 RO 02 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - fc",
-        "🇱🇻 LV 02 - fc",
-        "🇱🇻 LV 03 - fc",
-        "🇱🇻 LV 04 - fc"
+        "🇷🇴 RO 01 - fc",
+        "🇷🇴 RO 02 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

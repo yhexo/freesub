@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇭🇰 中国香港 (Hong Kong) 01 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 02 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 03 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 04 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 05 - fc"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇭🇰 中国香港 (Hong Kong) 01 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 02 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 03 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 04 - fc",
+        "🇭🇰 中国香港 (Hong Kong) 05 - fc"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

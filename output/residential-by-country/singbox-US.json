@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - fc",
-        "🇧🇷 BR 02 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - fc",
-        "🇧🇷 BR 02 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

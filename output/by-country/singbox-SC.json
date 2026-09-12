@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - fc",
-        "🇦🇪 阿联酋 (UAE) 02 - fc"
+        "🇸🇨 SC 01 - fc",
+        "🇸🇨 SC 02 - fc",
+        "🇸🇨 SC 03 - fc",
+        "🇸🇨 SC 04 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - fc",
-        "🇦🇪 阿联酋 (UAE) 02 - fc"
+        "🇸🇨 SC 01 - fc",
+        "🇸🇨 SC 02 - fc",
+        "🇸🇨 SC 03 - fc",
+        "🇸🇨 SC 04 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

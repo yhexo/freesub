@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - fc"
+        "🇸🇦 SA 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - fc"
+        "🇸🇦 SA 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

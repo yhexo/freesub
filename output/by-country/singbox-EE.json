@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE 01 - fc"
+        "🇪🇪 EE 01 - fc",
+        "🇪🇪 EE 02 - fc",
+        "🇪🇪 EE 03 - fc",
+        "🇪🇪 EE 04 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - fc"
+        "🇪🇪 EE 01 - fc",
+        "🇪🇪 EE 02 - fc",
+        "🇪🇪 EE 03 - fc",
+        "🇪🇪 EE 04 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

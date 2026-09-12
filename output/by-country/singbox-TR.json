@@ -6,26 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - fc",
-        "🇹🇷 土耳其 (Turkey) 02 - fc",
-        "🇹🇷 土耳其 (Turkey) 03 - fc",
-        "🇹🇷 土耳其 (Turkey) 04 - fc",
-        "🇹🇷 土耳其 (Turkey) 05 - fc",
-        "🇹🇷 土耳其 (Turkey) 06 - fc",
-        "🇹🇷 土耳其 (Turkey) 07 - fc"
+        "🇹🇷 土耳其 (Turkey) 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - fc",
-        "🇹🇷 土耳其 (Turkey) 02 - fc",
-        "🇹🇷 土耳其 (Turkey) 03 - fc",
-        "🇹🇷 土耳其 (Turkey) 04 - fc",
-        "🇹🇷 土耳其 (Turkey) 05 - fc",
-        "🇹🇷 土耳其 (Turkey) 06 - fc",
-        "🇹🇷 土耳其 (Turkey) 07 - fc"
+        "🇹🇷 土耳其 (Turkey) 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

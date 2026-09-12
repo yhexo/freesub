@@ -7,11 +7,7 @@
       "outbounds": [
         "auto",
         "🇸🇨 SC 01 - fc",
-        "🇸🇨 SC 02 - fc",
-        "🇸🇨 SC 03 - fc",
-        "🇸🇨 SC 04 - fc",
-        "🇸🇨 SC 05 - fc",
-        "🇸🇨 SC 06 - fc"
+        "🇸🇨 SC 02 - fc"
       ]
     },
     {
@@ -19,11 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇨 SC 01 - fc",
-        "🇸🇨 SC 02 - fc",
-        "🇸🇨 SC 03 - fc",
-        "🇸🇨 SC 04 - fc",
-        "🇸🇨 SC 05 - fc",
-        "🇸🇨 SC 06 - fc"
+        "🇸🇨 SC 02 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

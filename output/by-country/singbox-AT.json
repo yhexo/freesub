@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - fc",
-        "🇦🇹 AT 02 - fc"
+        "🇦🇹 AT 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - fc",
-        "🇦🇹 AT 02 - fc"
+        "🇦🇹 AT 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -5,54 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - fc
-  type: vmess
-  server: ejomsxptp19apygl.v.3dns.vip
+  type: vless
+  server: 8.218.22.14
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ejomsxptp19apygl.v.3dns.vip
+  servername: vp10.pages.dev
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
+      Host: vp10.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - fc
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - fc
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - fc
   type: vmess
   server: 47.83.19.148
   port: 443
@@ -68,6 +34,36 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - fc
+  type: vmess
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - fc
+  type: vless
+  server: 103.192.179.132
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vp10.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp10.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select

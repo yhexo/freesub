@@ -13,10 +13,10 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - fc
   type: ss
-  server: 139.84.247.164
-  port: 8388
+  server: 4.168.198.18
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: tfAcRikawhNoZAhu
+  password: FYGlWYggB4Akk6HP
   udp: true
 - name: 🇿🇦 ZA 03 - fc
   type: ss
@@ -27,10 +27,10 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 04 - fc
   type: ss
-  server: 4.168.198.18
-  port: 443
+  server: 139.84.247.164
+  port: 8388
   cipher: chacha20-ietf-poly1305
-  password: FYGlWYggB4Akk6HP
+  password: tfAcRikawhNoZAhu
   udp: true
 proxy-groups:
 - name: PROXIES

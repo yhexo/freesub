@@ -7,27 +7,74 @@ proxies:
 - name: 🇪🇪 EE 01 - fc
   type: vless
   server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 02 - fc
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 03 - fc
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 04 - fc
+  type: vless
+  server: 94.183.170.135
   port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 02 - fc
+- name: 🇪🇪 EE 05 - fc
   type: vless
-  server: 172.67.67.178
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 06 - fc
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇪🇪 EE 03 - fc
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 07 - fc
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -44,6 +91,10 @@ proxy-groups:
   - 🇪🇪 EE 01 - fc
   - 🇪🇪 EE 02 - fc
   - 🇪🇪 EE 03 - fc
+  - 🇪🇪 EE 04 - fc
+  - 🇪🇪 EE 05 - fc
+  - 🇪🇪 EE 06 - fc
+  - 🇪🇪 EE 07 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,5 +103,9 @@ proxy-groups:
   - 🇪🇪 EE 01 - fc
   - 🇪🇪 EE 02 - fc
   - 🇪🇪 EE 03 - fc
+  - 🇪🇪 EE 04 - fc
+  - 🇪🇪 EE 05 - fc
+  - 🇪🇪 EE 06 - fc
+  - 🇪🇪 EE 07 - fc
 rules:
 - MATCH,PROXIES

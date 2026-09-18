@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - fc"
+        "🇨🇿 CZ 01 - fc",
+        "🇨🇿 CZ 02 - fc",
+        "🇨🇿 CZ 03 - fc",
+        "🇨🇿 CZ 04 - fc",
+        "🇨🇿 CZ 05 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - fc"
+        "🇨🇿 CZ 01 - fc",
+        "🇨🇿 CZ 02 - fc",
+        "🇨🇿 CZ 03 - fc",
+        "🇨🇿 CZ 04 - fc",
+        "🇨🇿 CZ 05 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

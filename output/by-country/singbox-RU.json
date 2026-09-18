@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - fc",
-        "🇷🇺 俄罗斯 (Russia) 02 - fc",
-        "🇷🇺 俄罗斯 (Russia) 03 - fc",
-        "🇷🇺 俄罗斯 (Russia) 04 - fc",
-        "🇷🇺 俄罗斯 (Russia) 05 - fc"
+        "🇷🇺 俄罗斯 (Russia) 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - fc",
-        "🇷🇺 俄罗斯 (Russia) 02 - fc",
-        "🇷🇺 俄罗斯 (Russia) 03 - fc",
-        "🇷🇺 俄罗斯 (Russia) 04 - fc",
-        "🇷🇺 俄罗斯 (Russia) 05 - fc"
+        "🇷🇺 俄罗斯 (Russia) 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

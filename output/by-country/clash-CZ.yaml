@@ -6,49 +6,21 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - fc
   type: vless
-  server: 195.85.23.88
+  server: 188.114.96.8
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /vl/piIRdE9WUi24Sn3bb2oSJ?ed=2560
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
 - name: 🇨🇿 CZ 02 - fc
   type: vless
-  server: 84.32.217.120
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /channels/act
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇨🇿 CZ 03 - fc
-  type: vless
-  server: 64.227.67.161
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇨🇿 CZ 04 - fc
-  type: vless
-  server: 195.85.23.111
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -60,7 +32,21 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - fc
+- name: 🇨🇿 CZ 03 - fc
+  type: vless
+  server: 195.85.23.252
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 04 - fc
   type: vless
   server: 195.85.23.29
   port: 443
@@ -74,6 +60,20 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 05 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/zXLTmz3hE3szn64f?ed=2560
+    headers:
+      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

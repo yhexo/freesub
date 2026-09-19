@@ -6,28 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 BE 01 - fc",
-        "🇧🇪 BE 02 - fc",
-        "🇧🇪 BE 03 - fc",
-        "🇧🇪 BE 04 - fc",
-        "🇧🇪 BE 05 - fc",
-        "🇧🇪 BE 06 - fc",
-        "🇧🇪 BE 07 - fc",
-        "🇧🇪 BE 08 - fc"
+        "🇧🇪 BE 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - fc",
-        "🇧🇪 BE 02 - fc",
-        "🇧🇪 BE 03 - fc",
-        "🇧🇪 BE 04 - fc",
-        "🇧🇪 BE 05 - fc",
-        "🇧🇪 BE 06 - fc",
-        "🇧🇪 BE 07 - fc",
-        "🇧🇪 BE 08 - fc"
+        "🇧🇪 BE 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

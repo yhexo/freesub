@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - fc",
-        "🇪🇸 西班牙 (Spain) 02 - fc"
+        "🇪🇸 西班牙 (Spain) 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - fc",
-        "🇪🇸 西班牙 (Spain) 02 - fc"
+        "🇪🇸 西班牙 (Spain) 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

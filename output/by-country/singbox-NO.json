@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - fc",
-        "🇨🇭 CH 02 - fc",
-        "🇨🇭 CH 03 - fc"
+        "🇳🇴 NO 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - fc",
-        "🇨🇭 CH 02 - fc",
-        "🇨🇭 CH 03 - fc"
+        "🇳🇴 NO 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

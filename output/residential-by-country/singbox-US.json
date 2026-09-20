@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

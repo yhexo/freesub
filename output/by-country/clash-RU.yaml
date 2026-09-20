@@ -6,32 +6,30 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fc
   type: vless
-  server: 104.21.96.1
-  port: 443
-  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
+  server: 172.64.154.8
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    path: /?ed=2560security=tls
     headers:
-      Host: d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - fc
   type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  server: 172.64.53.55
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /casc
+    path: /?ed=2560security=tls
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - fc
   type: vless
   server: 46.8.200.91
@@ -48,18 +46,64 @@ proxies:
       Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 04 - fc
   type: vless
-  server: 104.21.69.37
+  server: 46.8.200.91
   port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /vl/uWq9DFRgj8BwQiSXmZ46
+    path: /casc
     headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 05 - fc
+  type: vless
+  server: 172.64.229.170
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 06 - fc
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: 5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - fc
+  type: vless
+  server: 172.64.42.85
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 08 - fc
+  type: vless
+  server: 172.64.32.103
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +113,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - fc
   - 🇷🇺 俄罗斯 (Russia) 03 - fc
   - 🇷🇺 俄罗斯 (Russia) 04 - fc
+  - 🇷🇺 俄罗斯 (Russia) 05 - fc
+  - 🇷🇺 俄罗斯 (Russia) 06 - fc
+  - 🇷🇺 俄罗斯 (Russia) 07 - fc
+  - 🇷🇺 俄罗斯 (Russia) 08 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +126,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - fc
   - 🇷🇺 俄罗斯 (Russia) 03 - fc
   - 🇷🇺 俄罗斯 (Russia) 04 - fc
+  - 🇷🇺 俄罗斯 (Russia) 05 - fc
+  - 🇷🇺 俄罗斯 (Russia) 06 - fc
+  - 🇷🇺 俄罗斯 (Russia) 07 - fc
+  - 🇷🇺 俄罗斯 (Russia) 08 - fc
 rules:
 - MATCH,PROXIES

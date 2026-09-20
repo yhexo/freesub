@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - fc",
-        "🇧🇬 BG 02 - fc"
+        "🇧🇬 BG 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - fc",
-        "🇧🇬 BG 02 - fc"
+        "🇧🇬 BG 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -15,20 +15,19 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: qq
 - name: 🇹🇭 TH 02 - fc
   type: vless
-  server: 162.159.156.214
-  port: 8880
-  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: soft-band-8da6.426.workers.dev
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 03 - fc
   type: vless
   server: 34.15.162.1
@@ -52,7 +51,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇹🇭 TH 05 - fc
   type: vless
   server: 34.15.162.1
@@ -76,7 +75,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇹🇭 TH 07 - fc
   type: vless
   server: 34.15.162.1
@@ -88,7 +87,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 08 - fc
   type: vless
   server: 34.15.162.1
@@ -112,7 +111,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇹🇭 TH 10 - fc
   type: vmess
   server: 118.193.57.167

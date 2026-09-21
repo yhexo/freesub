@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - fc
   type: vless
-  server: 31.43.179.200
+  server: 31.43.179.25
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -20,35 +20,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 02 - fc
   type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 03 - fc
-  type: vless
   server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 04 - fc
-  type: vless
-  server: 31.43.179.137
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -60,9 +32,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 05 - fc
+- name: 🇰🇿 KZ 03 - fc
   type: vless
-  server: 31.43.179.106
+  server: 31.43.179.20
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -71,24 +43,10 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 06 - fc
-  type: vless
-  server: 31.43.179.170
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 07 - fc
+- name: 🇰🇿 KZ 04 - fc
   type: vless
   server: 31.43.179.200
   port: 443
@@ -102,7 +60,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 08 - fc
+- name: 🇰🇿 KZ 05 - fc
   type: vless
   server: 31.43.179.87
   port: 443
@@ -116,35 +74,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 09 - fc
-  type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 10 - fc
-  type: vless
-  server: 31.43.179.137
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 11 - fc
+- name: 🇰🇿 KZ 06 - fc
   type: vless
   server: 31.43.179.20
   port: 443
@@ -158,62 +88,6 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 12 - fc
-  type: vless
-  server: 31.43.179.36
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 13 - fc
-  type: vless
-  server: 31.43.179.8
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 14 - fc
-  type: vless
-  server: 31.43.179.109
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 15 - fc
-  type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -225,15 +99,6 @@ proxy-groups:
   - 🇰🇿 KZ 04 - fc
   - 🇰🇿 KZ 05 - fc
   - 🇰🇿 KZ 06 - fc
-  - 🇰🇿 KZ 07 - fc
-  - 🇰🇿 KZ 08 - fc
-  - 🇰🇿 KZ 09 - fc
-  - 🇰🇿 KZ 10 - fc
-  - 🇰🇿 KZ 11 - fc
-  - 🇰🇿 KZ 12 - fc
-  - 🇰🇿 KZ 13 - fc
-  - 🇰🇿 KZ 14 - fc
-  - 🇰🇿 KZ 15 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -245,14 +110,5 @@ proxy-groups:
   - 🇰🇿 KZ 04 - fc
   - 🇰🇿 KZ 05 - fc
   - 🇰🇿 KZ 06 - fc
-  - 🇰🇿 KZ 07 - fc
-  - 🇰🇿 KZ 08 - fc
-  - 🇰🇿 KZ 09 - fc
-  - 🇰🇿 KZ 10 - fc
-  - 🇰🇿 KZ 11 - fc
-  - 🇰🇿 KZ 12 - fc
-  - 🇰🇿 KZ 13 - fc
-  - 🇰🇿 KZ 14 - fc
-  - 🇰🇿 KZ 15 - fc
 rules:
 - MATCH,PROXIES

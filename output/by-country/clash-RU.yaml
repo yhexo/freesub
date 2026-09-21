@@ -6,131 +6,60 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fc
   type: vless
-  server: 185.193.28.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  server: 45.38.139.23
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
+    path: '%2Fjumping%2Fclass%2Fbt%3Fed%3D2560'
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 02 - fc
   type: vless
-  server: 104.18.46.234
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 147.90.89.173
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /source/buy/f?ed=2560fp=chrome
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 03 - fc
   type: vless
-  server: 172.67.223.101
-  port: 2087
-  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
+  server: 132.243.203.218
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: '%2F'
+    path: '%2Fv%3Fed%3D2560'
     headers:
-      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 04 - fc
   type: vless
-  server: 162.159.24.131
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 05 - fc
-  type: vless
-  server: 162.159.0.169
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 06 - fc
-  type: vless
-  server: 46.8.200.91
+  server: 172.237.120.201
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /edu/group?ed=2560fp=chrome
     headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 07 - fc
-  type: vless
-  server: 172.67.187.219
-  port: 8880
-  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-cell-d20c.78-107.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 08 - fc
-  type: vless
-  server: 162.159.45.19
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 09 - fc
-  type: vless
-  server: 162.159.43.187
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 10 - fc
-  type: ss
-  server: 62.113.41.228
-  port: 2055
-  cipher: chacha20-ietf-poly1305
-  password: 7nzDcoQQxUYU35N5ngbSAg
-  udp: true
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -140,12 +69,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - fc
   - 🇷🇺 俄罗斯 (Russia) 03 - fc
   - 🇷🇺 俄罗斯 (Russia) 04 - fc
-  - 🇷🇺 俄罗斯 (Russia) 05 - fc
-  - 🇷🇺 俄罗斯 (Russia) 06 - fc
-  - 🇷🇺 俄罗斯 (Russia) 07 - fc
-  - 🇷🇺 俄罗斯 (Russia) 08 - fc
-  - 🇷🇺 俄罗斯 (Russia) 09 - fc
-  - 🇷🇺 俄罗斯 (Russia) 10 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -155,11 +78,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - fc
   - 🇷🇺 俄罗斯 (Russia) 03 - fc
   - 🇷🇺 俄罗斯 (Russia) 04 - fc
-  - 🇷🇺 俄罗斯 (Russia) 05 - fc
-  - 🇷🇺 俄罗斯 (Russia) 06 - fc
-  - 🇷🇺 俄罗斯 (Russia) 07 - fc
-  - 🇷🇺 俄罗斯 (Russia) 08 - fc
-  - 🇷🇺 俄罗斯 (Russia) 09 - fc
-  - 🇷🇺 俄罗斯 (Russia) 10 - fc
 rules:
 - MATCH,PROXIES

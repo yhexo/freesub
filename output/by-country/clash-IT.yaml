@@ -12,6 +12,46 @@ proxies:
   password: itzvpn@321
   udp: true
 - name: 🇮🇹 意大利 (Italy) 02 - fc
+  type: ss
+  server: 57.131.48.45
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 03 - fc
+  type: vmess
+  server: 89.41.172.85
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 04 - fc
+  type: vmess
+  server: 89.41.172.106
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 05 - fc
+  type: vless
+  server: 140.248.189.57
+  port: 80
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tazia.global.ssl.fastly.net
+- name: 🇮🇹 意大利 (Italy) 06 - fc
   type: vless
   server: 204.216.216.23
   port: 10086
@@ -19,27 +59,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇮🇹 意大利 (Italy) 03 - fc
-  type: vless
-  server: 158.180.231.216
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇮🇹 意大利 (Italy) 04 - fc
-  type: ss
-  server: 57.131.48.45
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +68,8 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 02 - fc
   - 🇮🇹 意大利 (Italy) 03 - fc
   - 🇮🇹 意大利 (Italy) 04 - fc
+  - 🇮🇹 意大利 (Italy) 05 - fc
+  - 🇮🇹 意大利 (Italy) 06 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +79,7 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 02 - fc
   - 🇮🇹 意大利 (Italy) 03 - fc
   - 🇮🇹 意大利 (Italy) 04 - fc
+  - 🇮🇹 意大利 (Italy) 05 - fc
+  - 🇮🇹 意大利 (Italy) 06 - fc
 rules:
 - MATCH,PROXIES

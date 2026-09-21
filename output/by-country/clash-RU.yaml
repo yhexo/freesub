@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fc
   type: vless
-  server: 45.38.139.23
-  port: 8443
+  server: 217.12.206.160
+  port: 81
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
@@ -15,49 +15,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: '%2Fjumping%2Fclass%2Fbt%3Fed%3D2560'
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 02 - fc
-  type: vless
-  server: 147.90.89.173
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /source/buy/f?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 03 - fc
-  type: vless
-  server: 132.243.203.218
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: '%2Fv%3Fed%3D2560'
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 04 - fc
-  type: vless
-  server: 172.237.120.201
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /edu/group?ed=2560fp=chrome
+    path: '%2Fmembers%2Fplaylist%3Fed%3D2560'
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -66,17 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - fc
-  - 🇷🇺 俄罗斯 (Russia) 02 - fc
-  - 🇷🇺 俄罗斯 (Russia) 03 - fc
-  - 🇷🇺 俄罗斯 (Russia) 04 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - fc
-  - 🇷🇺 俄罗斯 (Russia) 02 - fc
-  - 🇷🇺 俄罗斯 (Russia) 03 - fc
-  - 🇷🇺 俄罗斯 (Russia) 04 - fc
 rules:
 - MATCH,PROXIES

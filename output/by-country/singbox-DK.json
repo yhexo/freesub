@@ -7,8 +7,7 @@
       "outbounds": [
         "auto",
         "🇩🇰 DK 01 - fc",
-        "🇩🇰 DK 02 - fc",
-        "🇩🇰 DK 03 - fc"
+        "🇩🇰 DK 02 - fc"
       ]
     },
     {
@@ -16,8 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇰 DK 01 - fc",
-        "🇩🇰 DK 02 - fc",
-        "🇩🇰 DK 03 - fc"
+        "🇩🇰 DK 02 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

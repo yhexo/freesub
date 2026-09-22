@@ -6,19 +6,80 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - fc
   type: vless
-  server: 172.67.217.240
+  server: 161.33.29.51
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: shuma.ccwu.cc
 - name: 🇯🇵 日本 (Japan) 02 - fc
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 03 - fc
+  type: vless
+  server: 45.76.100.75
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇯🇵 日本 (Japan) 04 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇯🇵 日本 (Japan) 05 - fc
+  type: vless
+  server: 161.33.29.51
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇯🇵 日本 (Japan) 06 - fc
+  type: vmess
+  server: 168.110.60.104
+  port: 18112
+  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 07 - fc
   type: vless
   server: 45.202.254.133
   port: 443
@@ -32,67 +93,19 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 03 - fc
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 04 - fc
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 05 - fc
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 - fc
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - fc
-  type: vless
-  server: 46.250.250.48
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 - name: 🇯🇵 日本 (Japan) 08 - fc
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 09 - fc
   type: vless
-  server: 216.23.84.115
+  server: 45.202.254.133
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -105,15 +118,22 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 - name: 🇯🇵 日本 (Japan) 10 - fc
-  type: ss
-  server: 149.22.87.204
+  type: vless
+  server: 45.202.254.133
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
 - name: 🇯🇵 日本 (Japan) 11 - fc
   type: vless
-  server: 161.33.29.51
+  server: 45.202.254.133
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -127,7 +147,7 @@ proxies:
       Host: shuma.ccwu.cc
 - name: 🇯🇵 日本 (Japan) 12 - fc
   type: vless
-  server: 172.67.156.147
+  server: 104.16.10.185
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -141,63 +161,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 13 - fc
   type: vless
-  server: 45.202.254.133
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 14 - fc
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 15 - fc
-  type: vless
-  server: 161.33.29.51
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 16 - fc
-  type: vless
-  server: 46.250.250.48
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 17 - fc
-  type: vless
-  server: 45.202.254.133
+  server: 92.113.124.228
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -209,9 +173,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 18 - fc
+- name: 🇯🇵 日本 (Japan) 14 - fc
   type: vless
-  server: 45.202.254.133
+  server: 140.83.87.85
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -220,10 +184,17 @@ proxies:
   servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 19 - fc
+- name: 🇯🇵 日本 (Japan) 15 - fc
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 16 - fc
   type: vless
   server: 137.220.221.179
   port: 443
@@ -231,45 +202,37 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 20 - fc
+- name: 🇯🇵 日本 (Japan) 17 - fc
   type: vless
-  server: 161.33.29.51
+  server: 137.220.221.179
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 21 - fc
-  type: vless
-  server: 216.23.84.115
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 22 - fc
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 23 - fc
+- name: 🇯🇵 日本 (Japan) 18 - fc
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 19 - fc
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 20 - fc
   type: vless
   server: 104.21.8.201
   port: 2096
@@ -283,66 +246,7 @@ proxies:
     path: /vqyps6kf3
     headers:
       Host: cdn-jp.skyvora.app
-- name: 🇯🇵 日本 (Japan) 24 - fc
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 25 - fc
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 26 - fc
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: shrill-recipe-0c1d.404-a1d.workers.dev
-- name: 🇯🇵 日本 (Japan) 27 - fc
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 28 - fc
-  type: vmess
-  server: 168.110.60.104
-  port: 18112
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 29 - fc
+- name: 🇯🇵 日本 (Japan) 21 - fc
   type: vless
   server: 161.33.29.51
   port: 443
@@ -356,7 +260,89 @@ proxies:
     path: /fp=chrome
     headers:
       Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 30 - fc
+- name: 🇯🇵 日本 (Japan) 22 - fc
+  type: vless
+  server: 64.176.34.130
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇯🇵 日本 (Japan) 23 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇯🇵 日本 (Japan) 24 - fc
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇯🇵 日本 (Japan) 25 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇯🇵 日本 (Japan) 26 - fc
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 27 - fc
+  type: vless
+  server: 104.21.8.201
+  port: 2096
+  uuid: 36788cf4-fcb4-49c5-a563-5f888849b1cc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn-jp.skyvora.app
+  network: ws
+  ws-opts:
+    path: /vqyps6kf3
+    headers:
+      Host: cdn-jp.skyvora.app
+- name: 🇯🇵 日本 (Japan) 28 - fc
   type: vless
   server: 172.67.130.159
   port: 2096
@@ -370,23 +356,9 @@ proxies:
     path: /vqyps6kf3
     headers:
       Host: cdn-jp.skyvora.app
-- name: 🇯🇵 日本 (Japan) 31 - fc
+- name: 🇯🇵 日本 (Japan) 29 - fc
   type: vless
-  server: 104.21.8.201
-  port: 2096
-  uuid: 36788cf4-fcb4-49c5-a563-5f888849b1cc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn-jp.skyvora.app
-  network: ws
-  ws-opts:
-    path: /vqyps6kf3
-    headers:
-      Host: cdn-jp.skyvora.app
-- name: 🇯🇵 日本 (Japan) 32 - fc
-  type: vless
-  server: 188.114.97.6
+  server: 172.67.156.147
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -398,24 +370,23 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 33 - fc
+- name: 🇯🇵 日本 (Japan) 30 - fc
   type: vless
-  server: 92.113.124.228
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 188.114.97.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 34 - fc
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇯🇵 日本 (Japan) 31 - fc
   type: vless
-  server: 161.33.29.51
-  port: 443
+  server: 46.250.250.48
+  port: 8443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -426,14 +397,20 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇯🇵 日本 (Japan) 35 - fc
-  type: vless
-  server: 137.220.221.179
+- name: 🇯🇵 日本 (Japan) 32 - fc
+  type: ss
+  server: 149.22.87.204
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: false
-  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 33 - fc
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -472,8 +449,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 31 - fc
   - 🇯🇵 日本 (Japan) 32 - fc
   - 🇯🇵 日本 (Japan) 33 - fc
-  - 🇯🇵 日本 (Japan) 34 - fc
-  - 🇯🇵 日本 (Japan) 35 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -512,7 +487,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 31 - fc
   - 🇯🇵 日本 (Japan) 32 - fc
   - 🇯🇵 日本 (Japan) 33 - fc
-  - 🇯🇵 日本 (Japan) 34 - fc
-  - 🇯🇵 日本 (Japan) 35 - fc
 rules:
 - MATCH,PROXIES

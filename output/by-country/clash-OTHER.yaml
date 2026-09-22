@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - fc
   type: vless
-  server: 172.64.154.8
-  port: 8880
+  server: 104.18.46.46
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 02 - fc
   type: vless
-  server: 162.159.48.32
-  port: 2052
+  server: 188.114.97.6
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -29,24 +29,24 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 03 - fc
   type: vless
-  server: 172.64.145.202
-  port: 2087
+  server: 104.18.42.163
+  port: 2053
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 04 - fc
   type: vless
-  server: 172.64.52.30
+  server: 104.16.150.108
   port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -59,22 +59,23 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 05 - fc
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  type: vmess
+  server: 188.114.96.19
+  port: 80
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🌐 其他地区 (Other) 06 - fc
   type: vless
-  server: 172.64.144.66
+  server: 104.16.151.21
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -88,7 +89,48 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 07 - fc
   type: vless
-  server: 172.64.52.68
+  server: 172.64.42.85
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 08 - fc
+  type: vless
+  server: 172.64.53.87
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 09 - fc
+  type: vless
+  server: 172.67.196.178
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m9.pattaya-4.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 4-m9.pattaya-4.kdns.fr
+- name: 🌐 其他地区 (Other) 10 - fc
+  type: vless
+  server: 172.64.145.202
   port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -100,7 +142,89 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 08 - fc
+- name: 🌐 其他地区 (Other) 11 - fc
+  type: vless
+  server: 172.64.149.209
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 12 - fc
+  type: vless
+  server: 162.159.45.19
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 13 - fc
+  type: vless
+  server: 172.67.148.54
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-M19.NoRth-KOREA-park.kDNs.Fr
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 7-M19.NoRTh-korea-pArk.KDnS.Fr
+- name: 🌐 其他地区 (Other) 14 - fc
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 15 - fc
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 16 - fc
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 17 - fc
   type: vless
   server: 172.67.136.68
   port: 443
@@ -114,7 +238,7 @@ proxies:
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
       Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-- name: 🌐 其他地区 (Other) 09 - fc
+- name: 🌐 其他地区 (Other) 18 - fc
   type: vless
   server: 104.18.41.190
   port: 443
@@ -128,189 +252,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 10 - fc
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 11 - fc
-  type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 12 - fc
-  type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 13 - fc
-  type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 14 - fc
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 15 - fc
-  type: vless
-  server: 172.67.182.133
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-M13.0dCB525d-9bF8-452C-A465-5546541729D1.KdNS.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 0-m13.0dCb525D-9bF8-452c-a465-5546541729d1.kdNS.fR
-- name: 🌐 其他地区 (Other) 16 - fc
-  type: vless
-  server: 172.64.146.211
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 17 - fc
-  type: vless
-  server: 172.64.52.97
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 18 - fc
-  type: vless
-  server: 172.67.206.48
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
 - name: 🌐 其他地区 (Other) 19 - fc
-  type: vless
-  server: 172.64.53.60
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 20 - fc
-  type: vless
-  server: 172.64.52.175
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 21 - fc
-  type: vless
-  server: 104.18.42.54
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 22 - fc
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 23 - fc
   type: vless
   server: 104.18.34.168
   port: 443
@@ -324,123 +266,9 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 24 - fc
+- name: 🌐 其他地区 (Other) 20 - fc
   type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - fc
-  type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 26 - fc
-  type: vless
-  server: 104.21.21.151
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr
-- name: 🌐 其他地区 (Other) 27 - fc
-  type: vless
-  server: 172.64.53.74
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 28 - fc
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 29 - fc
-  type: vless
-  server: 104.19.215.97
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 30 - fc
-  type: vmess
-  server: 104.21.57.84
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 31 - fc
-  type: vless
-  server: 172.64.52.30
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 32 - fc
-  type: vless
-  server: 172.64.53.194
+  server: 172.64.149.209
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -452,24 +280,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 33 - fc
+- name: 🌐 其他地区 (Other) 21 - fc
   type: vless
-  server: 172.64.52.24
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 34 - fc
-  type: vless
-  server: 172.64.52.6
-  port: 2082
+  server: 162.159.24.131
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -479,313 +293,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 35 - fc
-  type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 36 - fc
-  type: vless
-  server: 104.21.64.209
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6-M13.0eE25773-d3d3-479D-A8Ff-3F51d1D20031.kdNs.fR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 6-M13.0ee25773-D3D3-479D-a8ff-3F51d1d20031.kDnS.fr
-- name: 🌐 其他地区 (Other) 37 - fc
-  type: vless
-  server: 172.64.145.202
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 38 - fc
-  type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 39 - fc
-  type: vless
-  server: 104.16.151.21
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 40 - fc
-  type: vless
-  server: 172.64.144.66
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 41 - fc
-  type: vless
-  server: 104.18.42.54
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 42 - fc
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 43 - fc
-  type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 44 - fc
-  type: vless
-  server: 172.67.169.99
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-m16.PHuKEt2035.KdnS.fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 8-m16.PHuKEt2035.KdnS.fr
-- name: 🌐 其他地区 (Other) 45 - fc
-  type: vless
-  server: 104.17.3.81
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 46 - fc
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 47 - fc
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 48 - fc
-  type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 49 - fc
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 50 - fc
-  type: vless
-  server: 162.159.0.169
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 51 - fc
-  type: vless
-  server: 172.64.52.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 52 - fc
-  type: vless
-  server: 104.19.214.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 53 - fc
-  type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 54 - fc
-  type: vless
-  server: 162.159.39.218
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 55 - fc
-  type: vless
-  server: 172.64.144.66
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 56 - fc
-  type: vless
-  server: 172.67.222.216
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
-- name: 🌐 其他地区 (Other) 57 - fc
+- name: 🌐 其他地区 (Other) 22 - fc
   type: vless
   server: 104.16.150.7
   port: 2087
@@ -799,37 +307,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 58 - fc
+- name: 🌐 其他地区 (Other) 23 - fc
   type: vless
-  server: 172.64.52.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 59 - fc
-  type: vless
-  server: 104.16.151.21
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 60 - fc
-  type: vless
-  server: 172.64.52.175
+  server: 172.64.144.66
   port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -841,10 +321,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 61 - fc
+- name: 🌐 其他地区 (Other) 24 - fc
   type: vless
-  server: 172.64.146.211
-  port: 2096
+  server: 104.16.150.246
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -855,10 +335,24 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 62 - fc
+- name: 🌐 其他地区 (Other) 25 - fc
   type: vless
-  server: 172.64.52.68
+  server: 104.21.48.184
   port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-m13.1b9390a5-6209-45Bd-bA0E-057eBB2641C3.KdnS.Fr
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 9-m13.1b9390a5-6209-45BD-bA0E-057eBB2641c3.KDNs.fr
+- name: 🌐 其他地区 (Other) 26 - fc
+  type: vless
+  server: 104.16.150.246
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -869,7 +363,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 63 - fc
+- name: 🌐 其他地区 (Other) 27 - fc
   type: vless
   server: 172.64.52.230
   port: 2087
@@ -883,35 +377,21 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 64 - fc
+- name: 🌐 其他地区 (Other) 28 - fc
   type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.64.153.88
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 65 - fc
-  type: vless
-  server: 172.67.199.80
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m13.18f6a5D8-1D18-4649-9D3d-97C46e3AA3ec.Kdns.fR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 9-M13.18f6A5D8-1d18-4649-9d3D-97C46E3aA3Ec.kdNS.fR
-- name: 🌐 其他地区 (Other) 66 - fc
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 29 - fc
   type: vless
   server: 172.64.52.175
   port: 2087
@@ -925,9 +405,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 67 - fc
+- name: 🌐 其他地区 (Other) 30 - fc
   type: vless
-  server: 172.64.52.30
+  server: 104.19.214.146
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -939,9 +419,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 68 - fc
+- name: 🌐 其他地区 (Other) 31 - fc
   type: vless
-  server: 104.19.215.97
+  server: 172.64.52.173
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -953,6 +433,521 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 32 - fc
+  type: vless
+  server: 104.21.70.102
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 6-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 6-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
+- name: 🌐 其他地区 (Other) 33 - fc
+  type: vless
+  server: 104.16.150.130
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 34 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 35 - fc
+  type: vless
+  server: 172.64.52.182
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 36 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: a0hbm.jvb1.28f.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 37 - fc
+  type: vless
+  server: 172.64.52.182
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 38 - fc
+  type: vless
+  server: 172.64.52.24
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 39 - fc
+  type: vless
+  server: 104.21.13.178
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-m16.ChiAN-Mai-6.KdNS.Fr
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 9-m16.ChIaN-mAI-6.kDnS.fR
+- name: 🌐 其他地区 (Other) 40 - fc
+  type: vless
+  server: 172.64.53.74
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 41 - fc
+  type: vless
+  server: 172.64.146.211
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 42 - fc
+  type: vless
+  server: 172.64.53.215
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 43 - fc
+  type: vless
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 44 - fc
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 45 - fc
+  type: vless
+  server: 104.18.42.54
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 46 - fc
+  type: vless
+  server: 172.64.53.215
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 47 - fc
+  type: vless
+  server: 172.64.52.173
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 48 - fc
+  type: vless
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 49 - fc
+  type: vless
+  server: 8.6.112.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 50 - fc
+  type: vless
+  server: 172.64.53.194
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 51 - fc
+  type: vless
+  server: 104.18.42.54
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 52 - fc
+  type: vless
+  server: 104.19.214.97
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 53 - fc
+  type: vless
+  server: 172.64.53.87
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 54 - fc
+  type: vless
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 55 - fc
+  type: vless
+  server: 104.21.5.156
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5-M13.1332afdc-0737-4BB1-8CA8-EE4F0cd20Bc6.KdNs.FR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 5-m13.1332aFDC-0737-4bB1-8cA8-Ee4f0cD20bC6.Kdns.fR
+- name: 🌐 其他地区 (Other) 56 - fc
+  type: vless
+  server: 104.19.214.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 57 - fc
+  type: vless
+  server: 104.16.151.21
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 58 - fc
+  type: vless
+  server: 104.19.214.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 59 - fc
+  type: vless
+  server: 104.16.150.7
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 60 - fc
+  type: vless
+  server: 162.159.0.53
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 61 - fc
+  type: vless
+  server: 172.64.52.97
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 62 - fc
+  type: vless
+  server: 172.64.147.104
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 63 - fc
+  type: vless
+  server: 172.64.147.104
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 64 - fc
+  type: vless
+  server: 172.64.52.30
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 65 - fc
+  type: vless
+  server: 172.64.53.215
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 66 - fc
+  type: vless
+  server: 104.21.39.137
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5-M19.ikL.Ccwu.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 5-M19.IKL.cCWU.cc
+- name: 🌐 其他地区 (Other) 67 - fc
+  type: vless
+  server: 104.18.42.163
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 68 - fc
+  type: vless
+  server: 172.67.118.45
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 69 - fc
   type: vless
   server: 172.64.52.24
@@ -969,8 +964,8 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 70 - fc
   type: vless
-  server: 172.64.52.30
-  port: 443
+  server: 172.64.52.230
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -983,8 +978,22 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 71 - fc
   type: vless
-  server: 172.64.53.194
-  port: 2087
+  server: 172.64.156.60
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
+- name: 🌐 其他地区 (Other) 72 - fc
+  type: vless
+  server: 104.19.215.97
+  port: 2053
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -995,24 +1004,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 72 - fc
-  type: vless
-  server: 104.18.38.47
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 73 - fc
   type: vless
-  server: 172.64.52.173
-  port: 443
+  server: 172.64.146.211
+  port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1025,7 +1020,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 74 - fc
   type: vless
-  server: 172.64.53.60
+  server: 104.18.42.163
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1039,22 +1034,21 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 75 - fc
   type: vless
-  server: 172.64.53.215
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.18.39.218
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 76 - fc
   type: vless
-  server: 104.16.150.7
-  port: 2087
+  server: 104.18.40.152
+  port: 2083
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1067,22 +1061,21 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 77 - fc
   type: vless
-  server: 172.64.52.173
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.18.39.218
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 78 - fc
   type: vless
-  server: 172.64.53.240
-  port: 2096
+  server: 172.64.53.42
+  port: 2053
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1095,7 +1088,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 79 - fc
   type: vless
-  server: 172.64.147.104
+  server: 172.64.52.182
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1109,22 +1102,22 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 80 - fc
   type: vless
-  server: 104.21.16.74
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  server: 104.19.214.97
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 0-m13.378Bb7Ff-11cf-4daD-b89E-72538aC75e29.Kdns.fr
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /
     headers:
-      Host: 0-m13.378Bb7ff-11CF-4dAD-B89E-72538AC75e29.KDNS.Fr
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 81 - fc
   type: vless
-  server: 172.64.145.202
-  port: 8443
+  server: 172.64.53.42
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1137,21 +1130,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 82 - fc
   type: vless
-  server: 8.6.112.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 83 - fc
-  type: vless
-  server: 172.64.52.182
+  server: 172.64.53.74
   port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1163,36 +1142,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 84 - fc
+- name: 🌐 其他地区 (Other) 83 - fc
   type: vless
-  server: 162.159.0.169
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 85 - fc
-  type: vless
-  server: 104.21.5.156
+  server: 104.18.41.190
   port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 5-M13.1332afdc-0737-4BB1-8CA8-EE4F0cd20Bc6.KdNs.FR
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /
     headers:
-      Host: 5-m13.1332aFDC-0737-4bB1-8cA8-Ee4f0cD20bC6.Kdns.fR
-- name: 🌐 其他地区 (Other) 86 - fc
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 84 - fc
   type: vless
-  server: 104.19.214.146
+  server: 172.64.53.140
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1204,6 +1170,34 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 85 - fc
+  type: vless
+  server: 104.17.3.81
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 86 - fc
+  type: vless
+  server: 172.67.129.170
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vv.11ww.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: vv.11ww.kdns.fr
 - name: 🌐 其他地区 (Other) 87 - fc
   type: vless
   server: 104.16.151.21
@@ -1220,7 +1214,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 88 - fc
   type: vless
-  server: 172.64.53.215
+  server: 172.64.53.74
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1234,35 +1228,61 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 89 - fc
   type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.49.165
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 8-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
   network: ws
   ws-opts:
-    path: /
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 8-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
 - name: 🌐 其他地区 (Other) 90 - fc
   type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.21.32.33
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 9-m9.hat-yai.kdns.fr
   network: ws
   ws-opts:
-    path: /
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 9-m9.hat-yai.kdns.fr
 - name: 🌐 其他地区 (Other) 91 - fc
   type: vless
-  server: 172.64.146.211
+  server: 104.18.46.234
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 92 - fc
+  type: vless
+  server: 162.159.24.131
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 93 - fc
+  type: vless
+  server: 172.64.53.215
   port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -1274,38 +1294,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 92 - fc
-  type: vless
-  server: 172.67.140.11
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-m19.sudAN-pArk.CcWU.cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 2-M19.SUDAn-pArk.CCWu.cC
-- name: 🌐 其他地区 (Other) 93 - fc
-  type: vless
-  server: 104.21.12.3
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6-m19.MexiCO-PoRt.CcWU.Cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 6-m19.mExiCo-pOrT.cCwu.cc
 - name: 🌐 其他地区 (Other) 94 - fc
   type: vless
-  server: 172.64.146.211
-  port: 2083
+  server: 104.18.38.47
+  port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1318,366 +1310,19 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 95 - fc
   type: vless
-  server: 104.18.42.163
-  port: 2053
+  server: 172.64.52.60
+  port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 96 - fc
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 97 - fc
-  type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 98 - fc
-  type: vless
-  server: 172.64.149.209
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 99 - fc
-  type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 100 - fc
-  type: vless
-  server: 172.67.134.13
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-M13-sTatic-cSS.Xcv.ccwU.CC
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 1-M13-sTAtiC-CsS.XCv.cCWu.cC
-- name: 🌐 其他地区 (Other) 101 - fc
-  type: vless
-  server: 104.19.214.98
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 102 - fc
-  type: vless
-  server: 172.64.145.93
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 103 - fc
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 104 - fc
-  type: vless
-  server: 172.64.53.194
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 105 - fc
-  type: vless
-  server: 172.67.118.45
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 106 - fc
-  type: vless
-  server: 104.21.39.176
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-M13.aYuttHAYa.KDns.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-M13.AYUtTHAya.KdNS.fr
-- name: 🌐 其他地区 (Other) 107 - fc
-  type: vless
-  server: 172.64.158.146
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 108 - fc
-  type: vless
-  server: 172.64.147.104
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 109 - fc
-  type: vless
-  server: 104.18.42.163
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 110 - fc
-  type: vless
-  server: 104.21.62.234
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-M19.sudaN-parK.ccwU.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 5-M19.sUdaN-PArK.ccWu.CC
-- name: 🌐 其他地区 (Other) 111 - fc
-  type: vless
-  server: 162.159.0.169
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 112 - fc
-  type: vless
-  server: 104.21.52.75
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m9.pattaya-4.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 7-m9.pattaya-4.kdns.fr
-- name: 🌐 其他地区 (Other) 113 - fc
-  type: vless
-  server: 8.35.211.236
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kkkk-bq7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kkkk-bq7.pages.dev
-- name: 🌐 其他地区 (Other) 114 - fc
-  type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 115 - fc
-  type: vless
-  server: 162.159.0.169
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 116 - fc
-  type: vless
-  server: 104.21.5.103
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m19.LoP.CCWu.CC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 1-m19.Lop.ccwU.CC
-- name: 🌐 其他地区 (Other) 117 - fc
-  type: vless
-  server: 172.64.53.215
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 118 - fc
-  type: vless
-  server: 104.21.78.48
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-- name: 🌐 其他地区 (Other) 119 - fc
-  type: vless
-  server: 104.21.52.2
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-- name: 🌐 其他地区 (Other) 120 - fc
-  type: vless
-  server: 104.18.40.152
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 121 - fc
   type: vless
   server: 172.64.52.173
   port: 2083
@@ -1691,189 +1336,20 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 122 - fc
+- name: 🌐 其他地区 (Other) 97 - fc
   type: vless
-  server: 104.21.90.161
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  server: 172.64.32.108
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 4-m19.pErU-Line.cCwU.cc
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
+    path: /?ed=2560security=tls+
     headers:
-      Host: 4-m19.pERU-LIne.CCwu.CC
-- name: 🌐 其他地区 (Other) 123 - fc
-  type: vless
-  server: 172.67.192.135
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 8-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-- name: 🌐 其他地区 (Other) 124 - fc
-  type: vless
-  server: 172.64.53.42
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 125 - fc
-  type: vless
-  server: 172.64.146.211
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 126 - fc
-  type: vless
-  server: 172.64.147.104
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 127 - fc
-  type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 128 - fc
-  type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 129 - fc
-  type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 130 - fc
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 131 - fc
-  type: vless
-  server: 104.16.151.21
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 132 - fc
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 133 - fc
-  type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 134 - fc
-  type: vless
-  server: 104.18.40.152
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 135 - fc
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 98 - fc
   type: vless
   server: 172.64.149.209
   port: 2087
@@ -1887,135 +1363,9 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 136 - fc
+- name: 🌐 其他地区 (Other) 99 - fc
   type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 137 - fc
-  type: vless
-  server: 104.18.42.54
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 138 - fc
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 139 - fc
-  type: vless
-  server: 104.21.77.97
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 0-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
-- name: 🌐 其他地区 (Other) 140 - fc
-  type: vless
-  server: 104.25.248.101
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 141 - fc
-  type: vless
-  server: 172.64.53.227
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 142 - fc
-  type: vless
-  server: 172.64.53.215
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 143 - fc
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 144 - fc
-  type: vless
-  server: 172.64.53.215
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 145 - fc
-  type: vless
-  server: 172.64.53.215
+  server: 104.19.215.97
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2027,9 +1377,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 146 - fc
+- name: 🌐 其他地区 (Other) 100 - fc
   type: vless
-  server: 104.18.40.152
+  server: 104.18.42.163
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2041,7 +1391,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 147 - fc
+- name: 🌐 其他地区 (Other) 101 - fc
   type: vless
   server: 104.19.45.195
   port: 2087
@@ -2055,135 +1405,23 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 148 - fc
+- name: 🌐 其他地区 (Other) 102 - fc
   type: vless
-  server: 172.64.144.66
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 149 - fc
-  type: vless
-  server: 172.64.147.104
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 150 - fc
-  type: vless
-  server: 172.64.52.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 151 - fc
-  type: vless
-  server: 104.19.214.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 152 - fc
-  type: vless
-  server: 104.16.150.108
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 153 - fc
-  type: vless
-  server: 172.67.198.209
+  server: 104.21.95.47
   port: 443
   uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr
+  servername: 6-m9.60673e90-5cbf-4567-b4d2-942581dac7a7.kdns.fr
   network: ws
   ws-opts:
     path: /BzuntJ8qZN0TRKbC8TveMxJ0
     headers:
-      Host: 2-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr
-- name: 🌐 其他地区 (Other) 154 - fc
+      Host: 6-m9.60673e90-5cbf-4567-b4d2-942581dac7a7.kdns.fr
+- name: 🌐 其他地区 (Other) 103 - fc
   type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 155 - fc
-  type: vless
-  server: 104.19.215.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 156 - fc
-  type: vless
-  server: 172.64.52.60
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 157 - fc
-  type: vless
-  server: 172.64.52.97
+  server: 172.64.146.211
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2195,48 +1433,7 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 158 - fc
-  type: vless
-  server: 172.64.53.140
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 159 - fc
-  type: vless
-  server: 104.19.214.146
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 160 - fc
-  type: vless
-  server: 162.159.0.53
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 161 - fc
+- name: 🌐 其他地区 (Other) 104 - fc
   type: vless
   server: 172.64.145.166
   port: 2087
@@ -2250,78 +1447,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 162 - fc
+- name: 🌐 其他地区 (Other) 105 - fc
   type: vless
-  server: 172.64.146.211
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 163 - fc
-  type: vless
-  server: 172.64.229.170
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 164 - fc
-  type: vless
-  server: 172.64.52.173
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 165 - fc
-  type: vless
-  server: 172.64.153.88
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 166 - fc
-  type: vless
-  server: 172.64.146.211
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 167 - fc
-  type: vless
-  server: 104.18.38.47
+  server: 172.64.53.215
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2333,23 +1461,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 168 - fc
+- name: 🌐 其他地区 (Other) 106 - fc
   type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 169 - fc
-  type: vless
-  server: 104.18.42.163
+  server: 172.64.145.93
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2361,10 +1475,24 @@ proxies:
     path: /
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 170 - fc
+- name: 🌐 其他地区 (Other) 107 - fc
   type: vless
-  server: 172.64.53.55
-  port: 8080
+  server: 104.18.40.152
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 108 - fc
+  type: vless
+  server: 162.159.39.218
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2374,23 +1502,23 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 171 - fc
-  type: vless
-  server: 172.67.176.60
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 3-m19.south-afriCa.Ccwu.Cc
-- name: 🌐 其他地区 (Other) 172 - fc
+- name: 🌐 其他地区 (Other) 109 - fc
   type: vless
   server: 172.64.53.240
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 110 - fc
+  type: vless
+  server: 172.64.146.211
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2402,52 +1530,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 173 - fc
+- name: 🌐 其他地区 (Other) 111 - fc
   type: vless
-  server: 172.67.132.100
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  server: 188.114.97.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: m16-6.chiAng-MAI2034.kDNS.Fr
   network: ws
   ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    path: /?ed=2560
     headers:
-      Host: m16-6.chiAng-MAI2034.kDNS.Fr
-- name: 🌐 其他地区 (Other) 174 - fc
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 112 - fc
   type: vless
-  server: 172.64.156.60
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
-- name: 🌐 其他地区 (Other) 175 - fc
-  type: vless
-  server: 104.21.13.178
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m16.ChiAN-Mai-6.KdNS.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 9-m16.ChIaN-mAI-6.kDnS.fR
-- name: 🌐 其他地区 (Other) 176 - fc
-  type: vless
-  server: 104.19.214.97
-  port: 2053
+  server: 172.64.53.215
+  port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -2458,9 +1557,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 177 - fc
+- name: 🌐 其他地区 (Other) 113 - fc
   type: vless
-  server: 172.64.53.227
+  server: 172.67.134.13
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-M13-sTatic-cSS.Xcv.ccwU.CC
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 1-M13-sTAtiC-CsS.XCv.cCWu.cC
+- name: 🌐 其他地区 (Other) 114 - fc
+  type: vless
+  server: 104.19.215.97
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2472,37 +1585,9 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 178 - fc
+- name: 🌐 其他地区 (Other) 115 - fc
   type: vless
-  server: 172.64.52.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 179 - fc
-  type: vless
-  server: 172.64.53.42
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 180 - fc
-  type: vless
-  server: 172.64.52.60
+  server: 104.19.215.97
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2514,7 +1599,21 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 181 - fc
+- name: 🌐 其他地区 (Other) 116 - fc
+  type: vless
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 117 - fc
   type: vless
   server: 172.64.53.194
   port: 2087
@@ -2528,37 +1627,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 182 - fc
+- name: 🌐 其他地区 (Other) 118 - fc
   type: vless
-  server: 104.18.38.47
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 183 - fc
-  type: vless
-  server: 172.67.164.249
+  server: 104.21.45.198
   port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 3-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
   network: ws
   ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: 3-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
-- name: 🌐 其他地区 (Other) 184 - fc
+      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
+- name: 🌐 其他地区 (Other) 119 - fc
   type: vless
-  server: 172.64.53.140
+  server: 172.64.52.230
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2570,9 +1655,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 185 - fc
+- name: 🌐 其他地区 (Other) 120 - fc
   type: vless
-  server: 172.64.53.227
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 121 - fc
+  type: vless
+  server: 172.64.52.68
   port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2584,65 +1683,23 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 186 - fc
+- name: 🌐 其他地区 (Other) 122 - fc
   type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: us9.69lover.my
-  network: ws
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-- name: 🌐 其他地区 (Other) 187 - fc
-  type: vless
-  server: 172.67.148.54
+  server: 104.21.80.252
   port: 443
   uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 7-M19.NoRth-KOREA-park.kDNs.Fr
+  servername: 1-M19.ALbania.CcWu.CC
   network: ws
   ws-opts:
     path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 7-M19.NoRTh-korea-pArk.KDnS.Fr
-- name: 🌐 其他地区 (Other) 188 - fc
+      Host: 1-M19.alBAniA.Ccwu.CC
+- name: 🌐 其他地区 (Other) 123 - fc
   type: vless
-  server: 172.64.149.209
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 189 - fc
-  type: vless
-  server: 103.31.4.10
-  port: 443
-  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: f871a986.69lover.site
-  network: ws
-  ws-opts:
-    path: /api/v2/b8ee4ba356df307c/stream
-    headers:
-      Host: f871a986.69lover.site
-- name: 🌐 其他地区 (Other) 190 - fc
-  type: vless
-  server: 104.19.214.97
+  server: 172.64.52.68
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -2654,7 +1711,147 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 191 - fc
+- name: 🌐 其他地区 (Other) 124 - fc
+  type: vless
+  server: 172.64.52.97
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 125 - fc
+  type: vless
+  server: 172.64.145.166
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 126 - fc
+  type: vless
+  server: 104.21.77.97
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 0-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
+- name: 🌐 其他地区 (Other) 127 - fc
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🌐 其他地区 (Other) 128 - fc
+  type: vless
+  server: 104.21.90.161
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m19.pErU-Line.cCwU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 4-m19.pERU-LIne.CCwu.CC
+- name: 🌐 其他地区 (Other) 129 - fc
+  type: vless
+  server: 172.64.53.42
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 130 - fc
+  type: vless
+  server: 104.16.150.130
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 131 - fc
+  type: vless
+  server: 172.64.52.68
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 132 - fc
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 133 - fc
+  type: vless
+  server: 172.64.53.194
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 134 - fc
   type: vless
   server: 8.6.112.6
   port: 2087
@@ -2668,9 +1865,39 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 192 - fc
+- name: 🌐 其他地区 (Other) 135 - fc
+  type: vmess
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 136 - fc
   type: vless
-  server: 172.64.154.8
+  server: 104.19.214.98
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 137 - fc
+  type: vless
+  server: 162.159.48.32
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2681,21 +1908,7 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 193 - fc
-  type: vless
-  server: 172.67.182.152
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m9.hat-yai.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 7-m9.hat-yai.kdns.fr
-- name: 🌐 其他地区 (Other) 194 - fc
+- name: 🌐 其他地区 (Other) 138 - fc
   type: vless
   server: 172.64.53.240
   port: 2087
@@ -2709,6 +1922,1024 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 139 - fc
+  type: vless
+  server: 172.64.53.194
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 140 - fc
+  type: vless
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 141 - fc
+  type: vless
+  server: 172.64.52.68
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 142 - fc
+  type: vless
+  server: 172.64.52.30
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 143 - fc
+  type: vless
+  server: 104.18.42.54
+  port: 2053
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 144 - fc
+  type: vless
+  server: 104.21.91.76
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
+- name: 🌐 其他地区 (Other) 145 - fc
+  type: vless
+  server: 104.21.39.176
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-M13.aYuttHAYa.KDns.fr
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-M13.AYUtTHAya.KdNS.fr
+- name: 🌐 其他地区 (Other) 146 - fc
+  type: vless
+  server: 172.64.144.66
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 147 - fc
+  type: vless
+  server: 104.21.22.82
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-M19.mju.cCwU.cC
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 1-M19.mJU.CCwU.cC
+- name: 🌐 其他地区 (Other) 148 - fc
+  type: vless
+  server: 172.64.52.173
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 149 - fc
+  type: vless
+  server: 172.64.52.97
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 150 - fc
+  type: vless
+  server: 172.67.182.152
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-m9.hat-yai.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 7-m9.hat-yai.kdns.fr
+- name: 🌐 其他地区 (Other) 151 - fc
+  type: vless
+  server: 172.64.144.66
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 152 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🌐 其他地区 (Other) 153 - fc
+  type: vless
+  server: 172.67.199.80
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-m13.18f6a5D8-1D18-4649-9D3d-97C46e3AA3ec.Kdns.fR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 9-M13.18f6A5D8-1d18-4649-9d3D-97C46E3aA3Ec.kdNS.fR
+- name: 🌐 其他地区 (Other) 154 - fc
+  type: vless
+  server: 172.67.140.160
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-StATiC-iMg-m13.xdc.CcWu.Cc
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 1-StaTic-ImG-m13.Xdc.cCWU.Cc
+- name: 🌐 其他地区 (Other) 155 - fc
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 156 - fc
+  type: vless
+  server: 172.67.209.218
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: api-service-core.f00f.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: api-service-core.f00f.ccwu.cc
+- name: 🌐 其他地区 (Other) 157 - fc
+  type: vless
+  server: 104.21.64.209
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 6-M13.0eE25773-d3d3-479D-A8Ff-3F51d1D20031.kdNs.fR
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 6-M13.0ee25773-D3D3-479D-a8ff-3F51d1d20031.kDnS.fr
+- name: 🌐 其他地区 (Other) 158 - fc
+  type: vless
+  server: 172.64.53.227
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 159 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 160 - fc
+  type: vless
+  server: 172.64.146.211
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 161 - fc
+  type: vless
+  server: 172.64.52.175
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 162 - fc
+  type: vless
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 163 - fc
+  type: vless
+  server: 104.19.215.97
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 164 - fc
+  type: vless
+  server: 172.67.223.194
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aSSETS-DISTRibuTIon-m13-3.tAiwAN1912.Qzz.io
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: asSEtS-dIsTRIbUTIOn-M13-3.taiwAn1912.QZz.iO
+- name: 🌐 其他地区 (Other) 165 - fc
+  type: vless
+  server: 172.64.52.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 166 - fc
+  type: vless
+  server: 104.21.52.2
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
+- name: 🌐 其他地区 (Other) 167 - fc
+  type: vless
+  server: 104.19.214.98
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 168 - fc
+  type: vless
+  server: 104.21.78.48
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+- name: 🌐 其他地区 (Other) 169 - fc
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 170 - fc
+  type: vless
+  server: 172.64.52.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 171 - fc
+  type: vless
+  server: 172.64.53.240
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 172 - fc
+  type: vless
+  server: 172.64.52.30
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 173 - fc
+  type: vless
+  server: 172.64.147.104
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 174 - fc
+  type: vless
+  server: 104.21.52.75
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7-m9.pattaya-4.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 7-m9.pattaya-4.kdns.fr
+- name: 🌐 其他地区 (Other) 175 - fc
+  type: vless
+  server: 172.67.222.216
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
+- name: 🌐 其他地区 (Other) 176 - fc
+  type: vless
+  server: 172.64.145.202
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 177 - fc
+  type: vless
+  server: 172.64.147.104
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 178 - fc
+  type: vless
+  server: 104.19.214.146
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 179 - fc
+  type: vless
+  server: 104.18.38.47
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 180 - fc
+  type: vless
+  server: 172.67.176.60
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 3-m19.south-afriCa.Ccwu.Cc
+- name: 🌐 其他地区 (Other) 181 - fc
+  type: vless
+  server: 104.16.151.21
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 182 - fc
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 183 - fc
+  type: vless
+  server: 172.64.144.66
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 184 - fc
+  type: vless
+  server: 172.67.177.227
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m16.cHiAN-mai-7.kdnS.fr
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 4-m16.ChIAn-mai-7.kDnS.fr
+- name: 🌐 其他地区 (Other) 185 - fc
+  type: vless
+  server: 104.21.53.73
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-m19.SOUTh-AFRicA-liNe.ccWU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 1-M19.SOuTH-AFRiCa-liNE.CcWu.Cc
+- name: 🌐 其他地区 (Other) 186 - fc
+  type: vless
+  server: 172.64.53.194
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 187 - fc
+  type: vless
+  server: 172.64.52.30
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 188 - fc
+  type: vless
+  server: 172.67.206.48
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
+- name: 🌐 其他地区 (Other) 189 - fc
+  type: vless
+  server: 172.64.52.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 190 - fc
+  type: vless
+  server: 172.67.143.2
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 4-m9.60673e90-5cbf-4567-b4d2-942581dac7a7.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 4-m9.60673e90-5cbf-4567-b4d2-942581dac7a7.kdns.fr
+- name: 🌐 其他地区 (Other) 191 - fc
+  type: vless
+  server: 104.25.248.101
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 192 - fc
+  type: vless
+  server: 172.64.53.227
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 193 - fc
+  type: vless
+  server: 172.64.146.66
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 194 - fc
+  type: vless
+  server: 172.64.146.211
+  port: 2096
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 195 - fc
+  type: vless
+  server: 172.64.53.140
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 196 - fc
+  type: vless
+  server: 172.64.52.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 197 - fc
+  type: vless
+  server: 172.64.145.202
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 198 - fc
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 199 - fc
+  type: vless
+  server: 172.67.164.249
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 3-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+- name: 🌐 其他地区 (Other) 200 - fc
+  type: vless
+  server: 172.67.150.230
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 8-M19.MEXICo-pOrt.Ccwu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 8-M19.mexIco-PoRT.CcWU.Cc
+- name: 🌐 其他地区 (Other) 201 - fc
+  type: vless
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 202 - fc
+  type: vless
+  server: 172.64.146.211
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 203 - fc
+  type: vless
+  server: 172.67.140.11
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-m19.sudAN-pArk.CcWU.cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.SUDAn-pArk.CCWu.cC
+- name: 🌐 其他地区 (Other) 204 - fc
+  type: vless
+  server: 172.67.153.78
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-M19.sOUth-aFrica-lINk.CCWu.Cc
+  network: ws
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.SOuTh-AFRIca-linK.ccWU.cC
+- name: 🌐 其他地区 (Other) 205 - fc
+  type: vless
+  server: 104.18.40.152
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 206 - fc
+  type: vless
+  server: 172.64.52.175
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 207 - fc
+  type: vless
+  server: 172.64.53.60
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 208 - fc
+  type: vless
+  server: 172.64.149.209
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 209 - fc
+  type: vless
+  server: 172.64.145.93
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 210 - fc
+  type: vless
+  server: 172.64.53.227
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 211 - fc
+  type: vless
+  server: 162.159.43.187
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2908,6 +3139,23 @@ proxy-groups:
   - 🌐 其他地区 (Other) 192 - fc
   - 🌐 其他地区 (Other) 193 - fc
   - 🌐 其他地区 (Other) 194 - fc
+  - 🌐 其他地区 (Other) 195 - fc
+  - 🌐 其他地区 (Other) 196 - fc
+  - 🌐 其他地区 (Other) 197 - fc
+  - 🌐 其他地区 (Other) 198 - fc
+  - 🌐 其他地区 (Other) 199 - fc
+  - 🌐 其他地区 (Other) 200 - fc
+  - 🌐 其他地区 (Other) 201 - fc
+  - 🌐 其他地区 (Other) 202 - fc
+  - 🌐 其他地区 (Other) 203 - fc
+  - 🌐 其他地区 (Other) 204 - fc
+  - 🌐 其他地区 (Other) 205 - fc
+  - 🌐 其他地区 (Other) 206 - fc
+  - 🌐 其他地区 (Other) 207 - fc
+  - 🌐 其他地区 (Other) 208 - fc
+  - 🌐 其他地区 (Other) 209 - fc
+  - 🌐 其他地区 (Other) 210 - fc
+  - 🌐 其他地区 (Other) 211 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3107,5 +3355,22 @@ proxy-groups:
   - 🌐 其他地区 (Other) 192 - fc
   - 🌐 其他地区 (Other) 193 - fc
   - 🌐 其他地区 (Other) 194 - fc
+  - 🌐 其他地区 (Other) 195 - fc
+  - 🌐 其他地区 (Other) 196 - fc
+  - 🌐 其他地区 (Other) 197 - fc
+  - 🌐 其他地区 (Other) 198 - fc
+  - 🌐 其他地区 (Other) 199 - fc
+  - 🌐 其他地区 (Other) 200 - fc
+  - 🌐 其他地区 (Other) 201 - fc
+  - 🌐 其他地区 (Other) 202 - fc
+  - 🌐 其他地区 (Other) 203 - fc
+  - 🌐 其他地区 (Other) 204 - fc
+  - 🌐 其他地区 (Other) 205 - fc
+  - 🌐 其他地区 (Other) 206 - fc
+  - 🌐 其他地区 (Other) 207 - fc
+  - 🌐 其他地区 (Other) 208 - fc
+  - 🌐 其他地区 (Other) 209 - fc
+  - 🌐 其他地区 (Other) 210 - fc
+  - 🌐 其他地区 (Other) 211 - fc
 rules:
 - MATCH,PROXIES

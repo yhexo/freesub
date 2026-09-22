@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - fc"
+        "🇲🇩 MD 01 - fc",
+        "🇲🇩 MD 02 - fc",
+        "🇲🇩 MD 03 - fc",
+        "🇲🇩 MD 04 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - fc"
+        "🇲🇩 MD 01 - fc",
+        "🇲🇩 MD 02 - fc",
+        "🇲🇩 MD 03 - fc",
+        "🇲🇩 MD 04 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

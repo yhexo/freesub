@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - fc"
+        "🇮🇸 IS 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - fc"
+        "🇮🇸 IS 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

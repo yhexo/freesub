@@ -20,18 +20,17 @@ proxies:
       Host: proxy-1cu.pages.dev
 - name: 🇸🇨 SC 02 - fc
   type: vless
-  server: 45.130.125.73
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  server: 154.197.75.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: web-app-aug8yr.app-f1qsy1.workers.dev
   network: ws
   ws-opts:
-    path: /api/ws
+    path: /
     headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
+      Host: vms.lifetime37.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

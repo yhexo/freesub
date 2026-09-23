@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇿🇦 ZA 01 - fc
+- name: 🇮🇷 IR 01 - fc
   type: ss
-  server: 102.37.156.224
-  port: 443
+  server: p1tun3.greewebservices.ir
+  port: 2070
   cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
+  password: LMnotcv4RdaEOBXT-LdtfA
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇿🇦 ZA 01 - fc
+  - 🇮🇷 IR 01 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇿🇦 ZA 01 - fc
+  - 🇮🇷 IR 01 - fc
 rules:
 - MATCH,PROXIES

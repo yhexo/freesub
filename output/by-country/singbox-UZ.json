@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - fc",
-        "🇱🇰 LK 02 - fc"
+        "🇺🇿 UZ 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - fc",
-        "🇱🇰 LK 02 - fc"
+        "🇺🇿 UZ 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

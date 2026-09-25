@@ -4,37 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - fc
-  type: vless
-  server: 175.195.149.58
-  port: 10280
-  uuid: 8638521a-7d64-4ad0-9112-83aa1fc19867
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
-  type: vmess
-  server: 24864168545164.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fc
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc
   type: vless
   server: 59.125.69.24
   port: 443
@@ -48,30 +18,42 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 59.125.69.24
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - fc
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
   type: ss
   server: 36.224.141.124
   port: 50099
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
+- name: 🇺🇸 美国 (United States) 03 (家宽) - fc
+  type: vless
+  server: 162.159.91.222
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-723a643df685
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: n3zaxce7u0es.crzl48eiuses.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/723a643df685/loc-0
+    headers:
+      Host: n3zaxce7u0es.crzl48eiuses.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - fc
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - fc
+  - 🇺🇸 美国 (United States) 03 (家宽) - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - fc
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - fc
+  - 🇺🇸 美国 (United States) 03 (家宽) - fc
 rules:
 - MATCH,PROXIES

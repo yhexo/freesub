@@ -18,26 +18,17 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 59.125.69.24
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
-  type: ss
-  server: namrcg001640lrm.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - fc
 rules:
 - MATCH,PROXIES

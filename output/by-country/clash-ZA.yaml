@@ -6,85 +6,19 @@ log-level: info
 proxies:
 - name: 🇿🇦 ZA 01 - fc
   type: ss
-  server: 102.37.156.224
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
-  udp: true
-- name: 🇿🇦 ZA 02 - fc
-  type: ss
-  server: 20.164.220.82
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: Qy7KyMo4epSCiluJ
-  udp: true
-- name: 🇿🇦 ZA 03 - fc
-  type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: tfAcRikawhNoZAhu
   udp: true
-- name: 🇿🇦 ZA 04 - fc
+- name: 🇿🇦 ZA 02 - fc
   type: ss
-  server: 20.164.220.82
-  port: 443
+  server: 102.133.165.160
+  port: 16233
   cipher: chacha20-ietf-poly1305
-  password: Qy7KyMo4epSCiluJ
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
-- name: 🇿🇦 ZA 05 - fc
-  type: vless
-  server: platform109.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform109
-    headers:
-      Host: platform109.golnamakcert.top
-- name: 🇿🇦 ZA 06 - fc
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
-- name: 🇿🇦 ZA 07 - fc
-  type: vless
-  server: platform106.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform106
-    headers:
-      Host: platform106.halalkhor.info
-- name: 🇿🇦 ZA 08 - fc
-  type: vless
-  server: platform106.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform106
-    headers:
-      Host: platform106.golnamakcert.top
-- name: 🇿🇦 ZA 09 - fc
+- name: 🇿🇦 ZA 03 - fc
   type: vless
   server: platform101.golnamakcert.top
   port: 80
@@ -97,32 +31,6 @@ proxies:
     path: /platform101
     headers:
       Host: platform101.halalkhor.info
-- name: 🇿🇦 ZA 10 - fc
-  type: vless
-  server: platform107.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform107
-    headers:
-      Host: platform107.halalkhor.info
-- name: 🇿🇦 ZA 11 - fc
-  type: vless
-  server: platform107.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform107
-    headers:
-      Host: platform107.golnamakcert.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -131,14 +39,6 @@ proxy-groups:
   - 🇿🇦 ZA 01 - fc
   - 🇿🇦 ZA 02 - fc
   - 🇿🇦 ZA 03 - fc
-  - 🇿🇦 ZA 04 - fc
-  - 🇿🇦 ZA 05 - fc
-  - 🇿🇦 ZA 06 - fc
-  - 🇿🇦 ZA 07 - fc
-  - 🇿🇦 ZA 08 - fc
-  - 🇿🇦 ZA 09 - fc
-  - 🇿🇦 ZA 10 - fc
-  - 🇿🇦 ZA 11 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -147,13 +47,5 @@ proxy-groups:
   - 🇿🇦 ZA 01 - fc
   - 🇿🇦 ZA 02 - fc
   - 🇿🇦 ZA 03 - fc
-  - 🇿🇦 ZA 04 - fc
-  - 🇿🇦 ZA 05 - fc
-  - 🇿🇦 ZA 06 - fc
-  - 🇿🇦 ZA 07 - fc
-  - 🇿🇦 ZA 08 - fc
-  - 🇿🇦 ZA 09 - fc
-  - 🇿🇦 ZA 10 - fc
-  - 🇿🇦 ZA 11 - fc
 rules:
 - MATCH,PROXIES

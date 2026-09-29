@@ -7,6 +7,15 @@ proxies:
 - name: 🇪🇪 EE 01 - fc
   type: vless
   server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 02 - fc
+  type: vless
+  server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
@@ -16,8 +25,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 02 - fc
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 03 - fc
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -26,20 +35,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 03 - fc
-  type: vless
-  server: 104.21.45.213
-  port: 443
-  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ez-541f9d.ezaccess1d3db24.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: ez-541f9d.ezaccess1d3db24.workers.dev
 - name: 🇪🇪 EE 04 - fc
   type: vless
   server: 94.183.170.135
@@ -57,8 +52,21 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 94.183.170.135
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 06 - fc
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 07 - fc
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -78,6 +86,7 @@ proxy-groups:
   - 🇪🇪 EE 04 - fc
   - 🇪🇪 EE 05 - fc
   - 🇪🇪 EE 06 - fc
+  - 🇪🇪 EE 07 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -89,5 +98,6 @@ proxy-groups:
   - 🇪🇪 EE 04 - fc
   - 🇪🇪 EE 05 - fc
   - 🇪🇪 EE 06 - fc
+  - 🇪🇪 EE 07 - fc
 rules:
 - MATCH,PROXIES

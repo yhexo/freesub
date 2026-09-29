@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇱 AL 01 - fc"
+        "🇰🇿 KZ 01 - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇱 AL 01 - fc"
+        "🇰🇿 KZ 01 - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

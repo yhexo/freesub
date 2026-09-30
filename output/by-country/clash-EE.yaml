@@ -7,60 +7,25 @@ proxies:
 - name: 🇪🇪 EE 01 - fc
   type: vless
   server: 94.183.170.135
-  port: 443
+  port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 02 - fc
   type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 03 - fc
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 04 - fc
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 172.64.32.108
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 05 - fc
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,9 +33,6 @@ proxy-groups:
   - AUTO
   - 🇪🇪 EE 01 - fc
   - 🇪🇪 EE 02 - fc
-  - 🇪🇪 EE 03 - fc
-  - 🇪🇪 EE 04 - fc
-  - 🇪🇪 EE 05 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,8 +40,5 @@ proxy-groups:
   proxies:
   - 🇪🇪 EE 01 - fc
   - 🇪🇪 EE 02 - fc
-  - 🇪🇪 EE 03 - fc
-  - 🇪🇪 EE 04 - fc
-  - 🇪🇪 EE 05 - fc
 rules:
 - MATCH,PROXIES

@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - fc",
-        "🇲🇽 MX 02 - fc",
-        "🇲🇽 MX 03 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - fc",
-        "🇲🇽 MX 02 - fc",
-        "🇲🇽 MX 03 - fc"
+        "🇺🇸 美国 (United States) 01 (家宽) - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

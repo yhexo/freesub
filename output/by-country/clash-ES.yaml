@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - fc
+  type: ss
+  server: 108.181.121.226
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 02 - fc
   type: vmess
   server: 66.163.118.73
   port: 22324
@@ -14,38 +21,16 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 02 - fc
-  type: vmess
-  server: mygptagent.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mygptagent.org
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: mygptagent.org
 - name: 🇪🇸 西班牙 (Spain) 03 - fc
   type: vmess
   server: 66.163.118.73
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: mygptagent.org
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: mygptagent.org
 - name: 🇪🇸 西班牙 (Spain) 04 - fc
   type: vmess
   server: mygptagent.org
@@ -63,51 +48,45 @@ proxies:
     headers:
       Host: mygptagent.org
 - name: 🇪🇸 西班牙 (Spain) 05 - fc
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 06 - fc
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 07 - fc
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 08 - fc
   type: ss
   server: 140.174.184.5
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
   udp: true
-- name: 🇪🇸 西班牙 (Spain) 09 - fc
-  type: vless
-  server: 34.175.107.233
+- name: 🇪🇸 西班牙 (Spain) 06 - fc
+  type: vmess
+  server: mygptagent.org
   port: 443
-  uuid: c55c9880-2f9c-4ad6-bfc2-5054516bf613
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇪🇸 西班牙 (Spain) 07 - fc
+  type: vmess
+  server: 66.163.118.73
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 08 - fc
+  type: ss
+  server: 108.181.121.226
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -121,7 +100,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - fc
   - 🇪🇸 西班牙 (Spain) 07 - fc
   - 🇪🇸 西班牙 (Spain) 08 - fc
-  - 🇪🇸 西班牙 (Spain) 09 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -135,6 +113,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - fc
   - 🇪🇸 西班牙 (Spain) 07 - fc
   - 🇪🇸 西班牙 (Spain) 08 - fc
-  - 🇪🇸 西班牙 (Spain) 09 - fc
 rules:
 - MATCH,PROXIES

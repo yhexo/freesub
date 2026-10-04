@@ -7,11 +7,9 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - fc",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - fc",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fc",
-        "🇺🇸 美国 (United States) 04 (家宽) - fc",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - fc",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - fc"
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - fc"
       ]
     },
     {
@@ -19,11 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - fc",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - fc",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - fc",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fc",
-        "🇺🇸 美国 (United States) 04 (家宽) - fc",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - fc",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - fc"
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - fc"
       ],
       "url": "https://www.google.com/generate_204"
     },

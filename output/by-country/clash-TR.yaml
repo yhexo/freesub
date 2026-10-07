@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 IE 01 - fc
+- name: 🇹🇷 土耳其 (Turkey) 01 - fc
   type: vless
-  server: 23.95.225.10
-  port: 8443
+  server: 203.202.232.211
+  port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
@@ -18,24 +18,22 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 02 - fc
-  type: ss
-  server: 20.223.236.165
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: CNL3mxdfZKiPKizL
-  udp: true
-- name: 🇮🇪 IE 03 - fc
-  type: ss
-  server: 20.223.236.165
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: CNL3mxdfZKiPKizL
-  udp: true
-- name: 🇮🇪 IE 04 - fc
+- name: 🇹🇷 土耳其 (Turkey) 02 - fc
   type: vless
-  server: 23.95.225.10
-  port: 8443
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 03 - fc
+  type: vless
+  server: 155.103.71.142
+  port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
@@ -51,18 +49,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 IE 01 - fc
-  - 🇮🇪 IE 02 - fc
-  - 🇮🇪 IE 03 - fc
-  - 🇮🇪 IE 04 - fc
+  - 🇹🇷 土耳其 (Turkey) 01 - fc
+  - 🇹🇷 土耳其 (Turkey) 02 - fc
+  - 🇹🇷 土耳其 (Turkey) 03 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 IE 01 - fc
-  - 🇮🇪 IE 02 - fc
-  - 🇮🇪 IE 03 - fc
-  - 🇮🇪 IE 04 - fc
+  - 🇹🇷 土耳其 (Turkey) 01 - fc
+  - 🇹🇷 土耳其 (Turkey) 02 - fc
+  - 🇹🇷 土耳其 (Turkey) 03 - fc
 rules:
 - MATCH,PROXIES

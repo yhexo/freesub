@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: firefox
 - name: 🇨🇾 CY 03 - fc
   type: vless
   server: 194.76.154.31
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 - name: 🇨🇾 CY 04 - fc
   type: vless
   server: 194.76.154.31
@@ -75,7 +75,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇨🇾 CY 07 - fc
   type: vless
   server: 194.76.154.31
@@ -87,7 +87,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇨🇾 CY 08 - fc
   type: vless
   server: 194.76.154.31
@@ -99,7 +99,67 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 09 - fc
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 10 - fc
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
   client-fingerprint: qq
+- name: 🇨🇾 CY 11 - fc
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 12 - fc
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 13 - fc
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -113,6 +173,11 @@ proxy-groups:
   - 🇨🇾 CY 06 - fc
   - 🇨🇾 CY 07 - fc
   - 🇨🇾 CY 08 - fc
+  - 🇨🇾 CY 09 - fc
+  - 🇨🇾 CY 10 - fc
+  - 🇨🇾 CY 11 - fc
+  - 🇨🇾 CY 12 - fc
+  - 🇨🇾 CY 13 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,5 +191,10 @@ proxy-groups:
   - 🇨🇾 CY 06 - fc
   - 🇨🇾 CY 07 - fc
   - 🇨🇾 CY 08 - fc
+  - 🇨🇾 CY 09 - fc
+  - 🇨🇾 CY 10 - fc
+  - 🇨🇾 CY 11 - fc
+  - 🇨🇾 CY 12 - fc
+  - 🇨🇾 CY 13 - fc
 rules:
 - MATCH,PROXIES

@@ -17,13 +17,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇨🇭 CH 02 - fc
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 03 - fc
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -34,7 +27,14 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 03 - fc
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
 - name: 🇨🇭 CH 04 - fc
   type: vless
   server: 208.69.78.217
@@ -47,20 +47,6 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇭 CH 05 - fc
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,7 +56,6 @@ proxy-groups:
   - 🇨🇭 CH 02 - fc
   - 🇨🇭 CH 03 - fc
   - 🇨🇭 CH 04 - fc
-  - 🇨🇭 CH 05 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -80,6 +65,5 @@ proxy-groups:
   - 🇨🇭 CH 02 - fc
   - 🇨🇭 CH 03 - fc
   - 🇨🇭 CH 04 - fc
-  - 🇨🇭 CH 05 - fc
 rules:
 - MATCH,PROXIES

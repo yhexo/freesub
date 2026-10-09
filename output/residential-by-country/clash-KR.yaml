@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - fc
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - fc
   type: vless
-  server: 31.40.204.131
-  port: 443
-  uuid: 86b6c7ba-d613-4567-962a-acfdad5c22db
+  server: 172.67.187.219
+  port: 8880
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
+      Host: tiny-feather-4c41.227.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - fc
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - fc
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - fc
 rules:
 - MATCH,PROXIES

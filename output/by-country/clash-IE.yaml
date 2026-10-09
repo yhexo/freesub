@@ -18,35 +18,17 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 02 - fc
-  type: ss
-  server: 20.123.11.204
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: H0gtOZkrqraldrhM
-  udp: true
-- name: 🇮🇪 IE 03 - fc
-  type: ss
-  server: 20.123.11.204
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: t1eiTbNnl7rpe1il
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - fc
-  - 🇮🇪 IE 02 - fc
-  - 🇮🇪 IE 03 - fc
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - fc
-  - 🇮🇪 IE 02 - fc
-  - 🇮🇪 IE 03 - fc
 rules:
 - MATCH,PROXIES
